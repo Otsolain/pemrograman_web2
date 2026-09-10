@@ -1,130 +1,128 @@
 <?php
-// inisiasi variabel yang digunakan
-// nama peralatan
+// Nama peralatan
 $brg1 = "Buku";
 $brg2 = "Mouse";
 $brg3 = "FlashDisk";
 $brg4 = "Pulpen";
 
-// harga per unit peralatan
+// Harga satuan
 $harga1 = 17500;
 $harga2 = 30000;
 $harga3 = 70000;
 $harga4 = 22300;
 
-// jumlah peralatan yang ada
+// Jumlah barang
 $jmlbrg1 = 2;
 $jmlbrg2 = 5;
 $jmlbrg3 = 1;
 $jmlbrg4 = 3;
 
-// total harga per jenis peralatan
+// Total harga tiap jenis barang
 $th1 = $jmlbrg1 * $harga1;
 $th2 = $jmlbrg2 * $harga2;
 $th3 = $jmlbrg3 * $harga3;
 $th4 = $jmlbrg4 * $harga4;
 
-// hitung grand total nilai peralatan
+// Total semua harga
 $tharga = $th1 + $th2 + $th3 + $th4;
 
-// besar diskon (%)
+// Diskon
 $diskon = 5;
-
-// jumlah total diskon yang diberikan
 $tdiskon = ($diskon * $tharga) / 100;
 
-// jumlah yang harus dibayar
+// Total pembayaran
 $tdibayar = $tharga - $tdiskon;
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Daftar Peralatan Yang Dibeli</title>
+
     <style>
         body {
             font-size: 14pt;
-            font-family: Arial, sans-serif;
         }
+
         table {
-            font-size: 12pt;
+            font-size: 18pt;
             border-collapse: collapse;
         }
+
         td, th {
-            border: 1px solid #000;
-            padding: 6px 10px;
-        }
-        .title {
-            font-family: "Comic Sans MS", cursive, sans-serif;
-            font-size: 18pt;
-            color: blue;
+            border: 1px solid black;
+            padding: 5px 10px;
         }
     </style>
 </head>
+
 <body>
 <center>
-    <div class="title">Contoh Perhitungan dengan PHP</div>
-    <table border="1" cellspacing="0" cellpadding="3">
+
+    <font face="Comic Sans MS" size="5" color="blue">
+        Contoh Perhitungan dengan PHP
+    </font>
+
+    <br><br>
+
+    <table>
         <tr>
-            <td colspan="4" align="center" valign="middle">
-                <b>Daftar Pemesanan Peralatan Kantor</b>
-            </td>
-        </tr>
-        <tr>
-            <td><b>Nama Peralatan</b></td>
-            <td><b>Jumlah</b></td>
-            <td><b>Harga Satuan</b></td>
-            <td><b>Jumlah Harga</b></td>
+            <th colspan="4">Daftar Pemesanan Peralatan Kantor</th>
         </tr>
 
-        <?php
-        // Baris 1
-        echo "<tr>";
-        echo "<td align="left">$brg1</td>";
-        echo "<td align="right">$jmlbrg1</td>";
-        echo "<td align="right">$harga1</td>";
-        echo "<td align="right">$th1</td>";
-        echo "</tr>";
+        <tr>
+            <th>Nama Peralatan</th>
+            <th>Jumlah</th>
+            <th>Harga Satuan</th>
+            <th>Jumlah Harga</th>
+        </tr>
 
-        // Baris 2
-        echo "<tr>";
-        echo "<td align="left">$brg2</td>";
-        echo "<td align="right">$jmlbrg2</td>";
-        echo "<td align="right">$harga2</td>";
-        echo "<td align="right">$th2</td>";
-        echo "</tr>";
+        <tr>
+            <td><?php echo $brg1; ?></td>
+            <td align="right"><?php echo $jmlbrg1; ?></td>
+            <td align="right"><?php echo $harga1; ?></td>
+            <td align="right"><?php echo $th1; ?></td>
+        </tr>
 
-        // Baris 3
-        echo "<tr>";
-        echo "<td align="left">$brg3</td>";
-        echo "<td align="right">$jmlbrg3</td>";
-        echo "<td align="right">$harga3</td>";
-        echo "<td align="right">$th3</td>";
-        echo "</tr>";
+        <tr>
+            <td><?php echo $brg2; ?></td>
+            <td align="right"><?php echo $jmlbrg2; ?></td>
+            <td align="right"><?php echo $harga2; ?></td>
+            <td align="right"><?php echo $th2; ?></td>
+        </tr>
 
-        // Baris 4
-        echo "<tr>";
-        echo "<td align="left">$brg4</td>";
-        echo "<td align="right">$jmlbrg4</td>";
-        echo "<td align="right">$harga4</td>";
-        echo "<td align="right">$th4</td>";
-        echo "</tr>";
-        ?>
+        <tr>
+            <td><?php echo $brg3; ?></td>
+            <td align="right"><?php echo $jmlbrg3; ?></td>
+            <td align="right"><?php echo $harga3; ?></td>
+            <td align="right"><?php echo $th3; ?></td>
+        </tr>
+
+        <tr>
+            <td><?php echo $brg4; ?></td>
+            <td align="right"><?php echo $jmlbrg4; ?></td>
+            <td align="right"><?php echo $harga4; ?></td>
+            <td align="right"><?php echo $th4; ?></td>
+        </tr>
 
         <tr>
             <td colspan="3" align="right">Total Harga</td>
             <td align="right"><?php echo $tharga; ?></td>
         </tr>
+
         <tr>
             <td colspan="3" align="right">
-                Diskon ( <?php echo $diskon; ?> % )
+                Diskon (<?php echo $diskon; ?>%)
             </td>
             <td align="right"><?php echo $tdiskon; ?></td>
         </tr>
+
         <tr>
             <td colspan="3" align="right">Jumlah harus dibayar</td>
             <td align="right"><?php echo $tdibayar; ?></td>
         </tr>
     </table>
+
 </center>
 </body>
 </html>
