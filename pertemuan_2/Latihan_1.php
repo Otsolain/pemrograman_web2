@@ -1,17 +1,13 @@
 <?php
 $a = 1;
 $b = 2;
+$c = $a . $b;       // menggabungkan angka 1 dan 2 → "12"
+// nilai $c sekarang "12"
 
-$c = $a . $b;
-// Nilai $c sekarang adalah 12 karena angka 1 dan 2 digabungkan.
-
-$d = $c + 1;
-echo "Nilai d = $d<br>";
-// Nilai $d adalah 13.
+$d = $c + 1;        // "12" + 1 → 13
+echo $d . "<br>";   // 13
 
 $e = "Number";
-$f = $e . $d;
-
-echo "Nilai f = $f";
-// Hasil: Number13
+$f = $e . $d;       // "Number" . 13 → "Number13"
+echo $f;            // Number13
 ?>
