@@ -9,3 +9,9 @@ Latihan operator penggabungan string (concatenation), perhitungan tabel harga, d
 | `latihan1.php` | Operator concatenation (`.`) untuk menggabungkan string dan angka |
 | `latihan2.php` | Tabel daftar peralatan kantor lengkap dengan perhitungan total harga dan diskon |
 | `latihan3.php` | Kalkulator sederhana menggunakan form HTML (`+`, `-`, `*`, `/`) dengan metode POST |
+
+## Screenshot
+
+![Latihan 1](latihan1.png)
+![Latihan 2](latihan2.png)
+![Latihan 3](latihan3.png)

@@ -9,3 +9,8 @@ Latihan memisahkan logika ke file terpisah menggunakan `include`, serta review p
 | `function.php` | Deklarasi fungsi `jumlah()` yang menerima dua parameter dan mengembalikan hasil penjumlahan |
 | `script.php` | Meng-include `function.php` lalu memanggil fungsi `jumlah()` |
 | `if-else.php` | Percabangan `if-else` untuk menentukan apakah suatu bilangan positif, negatif, atau nol |
+
+## Screenshot
+
+![If-Else](if-else.png)
+![Script Include](script.png)

@@ -1,7 +1,7 @@
 <?php
 // Pembuatan cookies (setcookie harus dipanggil sebelum ada output apa pun)
-$value = 'Slebew';
-$value2 = 'Slebew pisan';
+$value = 'anjay';
+$value2 = 'anjay gokil';
 setcookie("username", $value);
 setcookie("namalengkap", $value2, time()+3600); /* expire in 1
 hour */

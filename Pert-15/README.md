@@ -15,3 +15,9 @@ Latihan pembuatan, pemeriksaan, dan penghapusan cookie di PHP.
 ```
 cookie1.php (Buat) → cookie2.php (Periksa) → cookie3.php (Hapus)
 ```
+
+## Screenshot
+
+![Cookie 1 — Pembuatan Cookie](cookie1.png)
+![Cookie 2 — Pemeriksaan Cookie](cookie2.png)
+![Cookie 3 — Penghapusan Cookie](cookie3.png)
