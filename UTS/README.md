@@ -21,3 +21,7 @@ Aplikasi Form Pendaftaran Mahasiswa Baru menggunakan PHP (PDO) dan MySQL, lengka
 - Hapus data dengan konfirmasi
 - Rekap jumlah pendaftar (Lulus / Cadangan / Tidak Lulus)
 - Menggunakan **PDO** dengan **prepared statement** untuk keamanan
+
+## Screenshot
+
+![index.php](index.png)

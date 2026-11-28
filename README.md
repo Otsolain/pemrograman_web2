@@ -29,6 +29,7 @@ Repository ini berisi kumpulan tugas dan latihan untuk mata kuliah **Pemrograman
 | [`Pert-14`](Pert-14/) | Session — Login & Logout |
 | [`Pert-15`](Pert-15/) | Cookie |
 | [`Pert-16`](Pert-16/) | Kesalahan Umum pada Session |
+| [`Pert-17`](Pert-17/) | Header & Redirect |
 | [`Pert-18`](Pert-18/) | Include & Modularisasi |
 | [`UTS`](UTS/) | Ujian Tengah Semester — Pendaftaran Mahasiswa Baru |
 

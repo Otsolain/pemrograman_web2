@@ -18,3 +18,8 @@ Latihan penggunaan fungsi `header()` di PHP untuk melakukan redirect, serta mema
 > ```
 > Warning: Cannot modify header information - headers already sent
 > ```
+
+## Screenshot
+
+![contoh_header2.php](contoh_header2.png)
+![test.php](test.png)

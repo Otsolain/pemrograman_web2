@@ -13,3 +13,9 @@ Contoh-contoh kesalahan umum saat menggunakan `session_start()` dan latihan quer
 | `session3.php` | **Contoh error:** `include` file berisi output sebelum `session_start()` → *headers already sent* |
 
 > **Catatan:** File `session1.php`, `session2.php`, dan `session3.php` di folder ini sengaja mengandung kesalahan untuk tujuan pembelajaran. Jangan dijalankan sebagai kode produksi.
+
+## Screenshot
+
+![query.php](query.png)
+![session1.php](session1.png)
+![session3.php](session3.png)

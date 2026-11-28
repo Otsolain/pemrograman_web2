@@ -11,3 +11,11 @@ Latihan fungsi-fungsi array lanjutan: pencarian, pemecahan, dan penggabungan.
 | `latihan8.php` | Menggabungkan elemen array menjadi string dengan `join()` / `implode()` |
 | `latihan9.php` | Mengecek apakah variabel bertipe array dengan `is_array()` |
 | `latihan10.php` | `in_array()` dengan mode strict (`TRUE`) untuk pencocokan tipe data |
+
+## Screenshot
+
+![latihan4.php](latihan4.png)
+![latihan5.php](latihan5.png)
+![latihan8.php](latihan8.png)
+![latihan9.php](latihan9.png)
+![latihan10.php](latihan10.png)

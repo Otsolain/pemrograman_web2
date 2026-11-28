@@ -15,3 +15,9 @@ Latihan manajemen session di PHP: pembuatan session saat login, pemeriksaan sess
 ```
 session1.php (Login) → session2.php (Halaman Terbatas) → session3.php (Logout)
 ```
+
+## Screenshot
+
+![session1.php](session1.png)
+![session2.php](session2.png)
+![session3.php](session3.png)
